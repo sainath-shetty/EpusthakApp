@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Success">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/bg"
+                android:layout_width="147dp"
+                android:layout_height="225dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="138dp"
+                android:layout_marginEnd="231dp"
+                app:srcCompat="@drawable/bg" />
+
+            <Button
+                android:id="@+id/cart4"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="53dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="735dp"
+                android:layout_marginEnd="3dp"
+                android:backgroundTint="#FF9800"
+
+                android:onClick="maha"
+                app:icon="@drawable/cart"
+
+                />
+
+            <ImageView
+                android:id="@+id/ramayan"
+                android:layout_width="147dp"
+                android:layout_height="225dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="471dp"
+                android:layout_marginEnd="234dp"
+                app:srcCompat="@drawable/ramayan" />
+
+            <ImageView
+                android:id="@+id/ram"
+                android:layout_width="147dp"
+                android:layout_height="225dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="133dp"
+                android:layout_marginEnd="22dp"
+                app:srcCompat="@drawable/ram" />
+
+            <ImageView
+                android:id="@+id/mahabharath"
+                android:layout_width="147dp"
+                android:layout_height="225dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="469dp"
+                android:layout_marginEnd="22dp"
+                app:srcCompat="@drawable/maha" />
+
+            <ImageView
+                android:id="@+id/ath"
+                android:layout_width="wrap_content"
+                android:layout_height="225dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="795dp"
+                android:layout_marginEnd="228dp"
+                app:srcCompat="@drawable/ath" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="372dp"
+                android:layout_marginEnd="252dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Bhagvath Geetha"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="365dp"
+                android:layout_marginEnd="14dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Ram Charithra Manas"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="705dp"
+                android:layout_marginEnd="287dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Ramayan"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1026dp"
+                android:layout_marginEnd="296dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Atharved"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="702dp"
+                android:layout_marginEnd="59dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Mahabharath"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="105dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="736dp"
+                android:layout_marginEnd="66dp"
+                android:backgroundTint="#FF9800"
+                android:onClick="maha"
+                android:text="Read" />
+
+            <Button
+                android:id="@+id/button1"
+
+                android:layout_width="105dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1063dp"
+                android:layout_marginEnd="284dp"
+                android:backgroundTint="#FF9800"
+                android:onClick="atharv"
+                android:text="Read" />
+
+            <Button
+                android:id="@+id/cart1"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="53dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="406dp"
+                android:layout_marginEnd="212dp"
+                android:backgroundTint="#FF9800"
+                app:icon="@drawable/cart"
+
+                />
+
+            <Button
+                android:id="@+id/cart2"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="53dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="395dp"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#FF9800"
+
+
+                app:icon="@drawable/cart"
+
+                />
+
+            <Button
+                android:id="@+id/cart5"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="53dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1063dp"
+                android:layout_marginEnd="218dp"
+                android:backgroundTint="#FF9800"
+
+
+                app:icon="@drawable/cart"
+
+                />
+
+            <Button
+                android:id="@+id/cart3"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="53dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="733dp"
+                android:layout_marginEnd="209dp"
+                android:backgroundTint="#FF9800"
+
+
+                app:icon="@drawable/cart"
+
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="105dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="739dp"
+                android:layout_marginEnd="275dp"
+                android:backgroundTint="#FF9800"
+                android:onClick="ram"
+                android:text="Read" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="105dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="398dp"
+                android:layout_marginEnd="68dp"
+                android:backgroundTint="#FF9800"
+                android:onClick="ramC"
+                android:text="Read" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="105dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="405dp"
+                android:layout_marginEnd="276dp"
+                android:backgroundTint="#FF9800"
+                android:onClick="BhagG"
+                android:text="Read" />
+
+            <Button
+                android:id="@+id/viewCart"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#FF9800"
+                android:text="View Cart"
+                app:icon="@drawable/cart" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

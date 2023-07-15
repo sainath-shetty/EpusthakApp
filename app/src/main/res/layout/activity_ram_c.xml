@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bhag">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="232dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="118dp"
+        app:srcCompat="@drawable/ram" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="202dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="197dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Summary"
+        android:textColor="#FF9800"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="381dp"
+        android:layout_height="305dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="346dp"
+        android:layout_marginEnd="30dp"
+        android:text="
+The Ramcharitmanas is written in vernacular Awadhi language. The core of the work is considered by some to be a poetic retelling of the events of the Sanskrit epic Ramayana by Valmiki. The Valmiki Ramayana is centered on the narrative of Rama, the scion of the family tree of king Raghu of the Sun Dynasty."
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="621dp"
+        android:layout_marginEnd="165dp"
+        android:backgroundTint="#FF9800"
+        android:text="Read Now" />
+</RelativeLayout>

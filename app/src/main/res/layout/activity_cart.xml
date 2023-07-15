@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cart">
+
+    <TextView
+        android:id="@+id/RamC"
+        android:layout_width="240dp"
+        android:layout_height="114dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="154dp"
+        android:text=""
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/Bhag"
+        android:layout_width="220dp"
+        android:layout_height="105dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="172dp"
+        android:text=""
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/Ram"
+        android:layout_width="240dp"
+        android:layout_height="114dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="149dp"
+        android:text=""
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/Maha"
+        android:layout_width="240dp"
+        android:layout_height="114dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="145dp"
+        android:text=""
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/Atharv"
+        android:layout_width="234dp"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="628dp"
+        android:layout_marginEnd="143dp"
+        android:text=""
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/Cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Books In your Cart"
+        android:textColor="#FF5722"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/Bhagb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="75dp"
+        android:backgroundTint="#FF5722"
+        android:text="Read"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/Ramcb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="69dp"
+        android:backgroundTint="#FF5722"
+        android:text="Read"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/Ramb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="72dp"
+        android:backgroundTint="#FF5722"
+        android:text="Read"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/Mahab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="517dp"
+        android:layout_marginEnd="69dp"
+        android:backgroundTint="#FF5722"
+        android:text="Read"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/Athb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="635dp"
+        android:layout_marginEnd="64dp"
+        android:backgroundTint="#FF5722"
+        android:text="Read"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/Dbhag"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="#FF9800"
+        android:onClick="Dbhag"
+
+        android:visibility="invisible"
+        app:icon="@drawable/delete" />
+
+    <Button
+        android:id="@+id/Dramc"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="263dp"
+        android:onClick="Dramc"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="#FF9800"
+
+        app:icon="@drawable/delete"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/Dram"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="386dp"
+        android:onClick="Dram"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#FF9800"
+
+        app:icon="@drawable/delete"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/Dmaha"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="521dp"
+        android:layout_marginEnd="9dp"
+        android:backgroundTint="#FF9800"
+        android:onClick="Dmaha"
+
+        android:visibility="invisible"
+        app:icon="@drawable/delete" />
+
+    <Button
+        android:id="@+id/Dath"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="634dp"
+        android:layout_marginEnd="9dp"
+        android:backgroundTint="#FF9800"
+        android:onClick="Dath"
+
+        android:visibility="invisible"
+        app:icon="@drawable/delete" />
+
+</RelativeLayout>

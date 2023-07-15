@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Atharv">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="232dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="118dp"
+        app:srcCompat="@drawable/ath" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="202dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="197dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Summary"
+        android:textColor="#FF9800"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="381dp"
+        android:layout_height="305dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="346dp"
+        android:layout_marginEnd="30dp"
+        android:text="The Atharvaveda is a collection of 20 books, with a total of 730 hymns of about 6,000 stanzas. The text is, state Patrick Olivelle and other scholars, a historical collection of beliefs and rituals addressing practical issues of daily life of the Vedic society, and it is not a liturgical Yajurveda-style collection."
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="621dp"
+        android:layout_marginEnd="165dp"
+        android:backgroundTint="#FF9800"
+        android:text="Read Now-" />
+</RelativeLayout>
